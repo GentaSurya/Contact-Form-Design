@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 class="heading">Get in touch!</h1>
+            <p class="heading-desc">Contact us for a quote, help ot to join the team.</p>
+        </div>
+
+        <div class="about">
+            <div class="about-btn">
+                <img src="images/icons8-location-100.png" alt="location" width="30px" class="about-ic">
+                <p class="about-p">102 Street 2714 Don</p>
+            </div>
+            <div class="about-btn">
+                <img src="images/icons8-phone-90.png" alt="location" width="30px" class="about-ic">
+                <p class="about-p">+02 1234 567</p>
+            </div>
+            <div class="about-btn">
+                <img src="images/icons8-mail-100.png" alt="location" width="30px" class="about-ic">
+                <p class="about-p">hello@flowbase.com</p>
+            </div>
+        </div>
+
+        <div class="container-contact">
+            <p class="contact-heading">Contact Form</p>
+            <div>
+                <form class="input-form" action="action_page.php">
+                    <div class="contact-input">
+                        <label for="name" class="contact-label">Your Name</label>
+                        <div class="input-contact-container">
+                            <input id="name" type="text" class="input border" name="name" placeholder="Name">
+                            <img src="images/icons8-male-user-96.png" alt="name-icon" class="input-icon" width="25px">
+                        </div>
+
+                        <label for="mail" class="contact-label">Mail</label>
+                        <div class="input-contact-container">
+                            <input id="mail" type="mail" class="input border" name="email" placeholder="Mail" required>
+                            <img src="images/icons8-mail-96.png" alt="mail-icon" class="input-icon" width="25px">
+                        </div>
+
+                        <label for="phone" class="contact-label">Phone</label>
+                        <div class="input-contact-container">
+                            <input id="phone" type="tel" class="input border" name="phone" placeholder="Phone">
+                            <img src="images/icons8-phone-96.png" alt="name-icon" class="input-icon" width="25px">
+                        </div>
+
+
+
+                    </div>
+                    <div class="text-area">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="17" rows="11" placeholder="Message"
+                            class="txt border"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <div class="container-services">
+                <p class="services-heading">Services</p>
+
+                <div class="button-container">
+                    <button class="services-button">Web Design</button>
+                    <button class="services-button">Web Development</button>
+                    <button class="services-button">Logo Design</button>
+                    <button class="services-button">Other</button>
+                </div>
+
+                <div class="send-btn">
+                    <button class="send">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
